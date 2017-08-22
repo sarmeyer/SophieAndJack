@@ -1,6 +1,20 @@
-.fade {
-  margin: 50px;
-  padding: 50px;
-  background-color: lightgreen;
-  opacity: 1;
+#container {
+    height:2000px;
+}
+
+#container DIV {
+    margin:50px;
+    padding:50px;
+    width:50px;
+    height:150px;
+    background-color:lightblue;
+    -webkit-transition: all 1s ease; transition: all 1s ease;
+}
+
+.hideme {
+    opacity:0;
+}
+
+.showme {
+  opacity:1!important;
 }
